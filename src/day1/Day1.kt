@@ -1,6 +1,8 @@
+package day1
+
 import java.io.File
 
-fun day1() = fuel(File("day1.txt").readLines().map { it.toInt() })
+fun day1() = fuel(File("src/day1/day1.txt").readLines().map { it.toInt() })
 
   private fun calc(x : Int) : Int {
         val y = x/3 - 2

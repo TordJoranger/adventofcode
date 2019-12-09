@@ -1,3 +1,6 @@
+package day3
+
+import Vector
 import java.io.File
 
 fun intersect(p0x: Double, p0y: Double,p1x: Double, p1y: Double,p2x: Double, p2y: Double, p3x: Double, p3y: Double) : Pair<Int,Int>? {
@@ -61,12 +64,12 @@ fun getVectors(inputPath: String): Pair<List<Vector>,List<Vector>> {
             }
             "R" -> {
                 val end = Pair(coordinate.first + length, coordinate.second)
-                xList.add(Vector(coordinate, end,currentSteps))
+                xList.add(Vector(coordinate, end, currentSteps))
                 coordinate = end
             }
             "L" -> {
                 val end = Pair(coordinate.first - length, coordinate.second )
-                xList.add(Vector(coordinate, end,currentSteps))
+                xList.add(Vector(coordinate, end, currentSteps))
                 coordinate = end
             }
         }
