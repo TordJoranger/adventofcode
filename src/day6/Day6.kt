@@ -1,11 +1,16 @@
 package day6
-
 import java.io.File
 
-class Node(val Name: String, val Children : List<Node>)
+private class Node(val Name: String, val Children : List<Node>)
+
+fun day6part1() :Int {
+    val nodes = getNodes()
+    val start = nodes["COM"]
+    return countNodes(start!!, nodes.minus(start.Name),0)
+}
 
 fun day6part2() :Int {
-    val nodes = getMap(emptyMap(),File("day6.txt").readLines())
+    val nodes = getNodes()
     val parentOfYou = findParentsOf(nodes, arrayOf(),nodes["YOU"]!!)
     val parentOfSan = findParentsOf(nodes, arrayOf(),nodes["SAN"]!!)
     parentOfYou.withIndex().forEach { (index, node) ->
@@ -17,13 +22,7 @@ fun day6part2() :Int {
     return 0
 }
 
-fun day6() :Int {
-    val nodes = getMap(emptyMap(),File("day6.txt").readLines())
-    val start = nodes["COM"]
-    return countNodes(start!!, nodes.minus(start.Name),0)
-}
-
-fun countNodes(node: Node, nodes: Map<String,Node>, count: Int) :Int{
+private fun countNodes(node: Node, nodes: Map<String,Node>, count: Int) :Int{
     if (node.Children.any()) {
         var temp = count
           node.Children.forEach {
@@ -34,7 +33,7 @@ fun countNodes(node: Node, nodes: Map<String,Node>, count: Int) :Int{
     }
     return count
 }
-fun findParentsOf(nodes: Map<String,Node>, parents: Array<Node>, currentNode: Node): Array<Node>{
+ private fun findParentsOf(nodes: Map<String,Node>, parents: Array<Node>, currentNode: Node): Array<Node>{
     val list = nodes.toList()
     list.forEach(){o->
             if( o.second.Children.any {c->  c.Name == currentNode.Name } )
@@ -43,31 +42,38 @@ fun findParentsOf(nodes: Map<String,Node>, parents: Array<Node>, currentNode: No
     return  parents
 }
 
-fun getMap(nodes: Map<String, Node>, list: List<String>): Map<String, Node> {
-        if (list.count() == 0) {
-            return nodes
-        }
-        val line = list.first().split(")")
-        val key = line[0]
-        val value = line[1]
-        val nextNode = Node(value, emptyList())
-           val newNodes = if(!nodes.containsKey(nextNode.Name))
-               nodes.plus(Pair(nextNode.Name, nextNode))
-           else
-               nodes
+private fun getNodes(): Map<String, Node> {
+  return  getMap(emptyMap(),File("src/day6/day6.txt").readLines())
+}
 
-        return if (!nodes.containsKey(key)) {
-            val currentNode = Node(key, listOf(nextNode))
-            val newMap = newNodes.plus(Pair(key, currentNode))
-
-            getMap(newMap, list.drop(1))
-        } else {
-            val newMap = newNodes.mapValues {
-                if (it.key == key)
-                    Node(key, it.value.Children.plus(nextNode))
-                else
-                    it.value
-            }
-            getMap(newMap, list.drop(1))
-        }
+private fun getMap(
+    nodes: Map<String, Node>,
+    list: List<String>
+): Map<String, Node> {
+    if (list.count() == 0) {
+        return nodes
     }
+    val line = list.first().split(")")
+    val key = line[0]
+    val value = line[1]
+    val nextNode = Node(value, emptyList())
+    val newNodes = if (!nodes.containsKey(nextNode.Name))
+        nodes.plus(Pair(nextNode.Name, nextNode))
+    else
+        nodes
+
+    return if (!nodes.containsKey(key)) {
+        val currentNode = Node(key, listOf(nextNode))
+        val newMap = newNodes.plus(Pair(key, currentNode))
+
+        getMap(newMap, list.drop(1))
+    } else {
+        val newMap = newNodes.mapValues {
+            if (it.key == key)
+                Node(key, it.value.Children.plus(nextNode))
+            else
+                it.value
+        }
+        getMap(newMap, list.drop(1))
+    }
+}

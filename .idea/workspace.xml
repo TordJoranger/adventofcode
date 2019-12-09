@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day6/Day6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6part2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/day6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Day3_1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Day3_2Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/AppKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/Day1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/Day3Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/META-INF/helloWorld.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/day3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Day6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/test6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6part2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/test6part2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +40,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tordj\IdeaProjects\adventofcode\src\day6" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -113,22 +109,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="420" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575652317539" />
-    <state width="2517" height="446" key="GridCell.Tab.0.bottom" timestamp="1575913295221">
+    <state width="2517" height="446" key="GridCell.Tab.0.bottom" timestamp="1575914079842">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575913295221" />
-    <state width="2517" height="446" key="GridCell.Tab.0.center" timestamp="1575913295221">
+    <state width="2517" height="446" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575914079842" />
+    <state width="2517" height="446" key="GridCell.Tab.0.center" timestamp="1575914079842">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575913295221" />
-    <state width="2517" height="446" key="GridCell.Tab.0.left" timestamp="1575913295220">
+    <state width="2517" height="446" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575914079842" />
+    <state width="2517" height="446" key="GridCell.Tab.0.left" timestamp="1575914079841">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575913295220" />
-    <state width="2517" height="446" key="GridCell.Tab.0.right" timestamp="1575913295221">
+    <state width="2517" height="446" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575914079841" />
+    <state width="2517" height="446" key="GridCell.Tab.0.right" timestamp="1575914079842">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575913295221" />
+    <state width="2517" height="446" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575914079842" />
     <state width="1340" height="325" key="GridCell.Tab.1.bottom" timestamp="1575912877483">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -151,20 +147,6 @@
     <state x="976" y="523" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575904193393" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/day6/Day6.kt</url>
-          <line>16</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/day6/Day6.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="s02_y" />
