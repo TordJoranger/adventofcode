@@ -1,5 +1,4 @@
 import java.io.File
-import kotlin.math.abs
 
 fun intersect(p0x: Double, p0y: Double,p1x: Double, p1y: Double,p2x: Double, p2y: Double, p3x: Double, p3y: Double) : Pair<Int,Int>? {
     val s10_x = p1x - p0x
@@ -36,18 +35,14 @@ fun intersect(p0x: Double, p0y: Double,p1x: Double, p1y: Double,p2x: Double, p2y
     return Pair(intersectX.toInt(), interSectY.toInt())
 }
 
-
-
-fun addToLists(
-    inputPath: String,
-    yList:   MutableList<Vector>,
-    xList:   MutableList<Vector>
-) {
+fun getVectors(inputPath: String): Pair<List<Vector>,List<Vector>> {
     val input =  File(inputPath).readText()
     val list : List<String> = input.split(",")
-    var coordinate = Pair<Double,Double>(0.0,0.0)
-
+    var coordinate = Pair(0.0,0.0)
     var currentSteps = 0;
+
+    var xList : MutableList<Vector> = mutableListOf()
+    var yList : MutableList<Vector> = mutableListOf()
 
     list.forEach {
 
@@ -56,7 +51,7 @@ fun addToLists(
         when (it.subSequence(0, 1)) {
             "U" -> {
                 val end = Pair(coordinate.first, coordinate.second+ length)
-                yList.add(Vector(coordinate, end,currentSteps))
+                yList.add(Vector(coordinate, end, currentSteps))
                 coordinate = end
             }
             "D" -> {
@@ -76,4 +71,6 @@ fun addToLists(
             }
         }
     }
+
+    return Pair(xList,yList)
 }
