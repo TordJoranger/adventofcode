@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day1/day1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/day1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/day3.1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/day3.2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Day1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Day3FunctionsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Day3Kt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/Day3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/Day3Functions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/Day1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -45,22 +57,36 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\W\beerCode\adventofcode\adventofcode\src\2020\day1" />
       <recent name="C:\Users\Tordj\IdeaProjects\adventofcode\src\day3" />
       <recent name="C:\Users\Tordj\IdeaProjects\adventofcode\src\day1" />
       <recent name="C:\Users\Tordj\IdeaProjects\adventofcode\src\day6" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -75,22 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AppKt" />
+        <item itemvalue="Application.AppKt" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="" />
@@ -98,72 +113,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572946989025</updated>
+      <workItem from="1606810272910" duration="6684000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1575652317539">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="548" y="204" width="440" height="423" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1606810528929">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="420" height="466" key="DebuggerActiveHint/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575652317539" />
-    <state width="2517" height="446" key="GridCell.Tab.0.bottom" timestamp="1575916519598">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="548" y="204" width="440" height="423" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606810528929" />
+    <state x="524" y="119" key="#xdebugger.evaluate" timestamp="1606814422315">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575916519598" />
-    <state width="2517" height="446" key="GridCell.Tab.0.center" timestamp="1575916519598">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="524" y="119" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1606814422315" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606816474147">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575916519598" />
-    <state width="2517" height="446" key="GridCell.Tab.0.left" timestamp="1575916519598">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606816474147">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575916519598" />
-    <state width="2517" height="446" key="GridCell.Tab.0.right" timestamp="1575916519598">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606816474147">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2517" height="446" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575916519598" />
-    <state width="1340" height="325" key="GridCell.Tab.1.bottom" timestamp="1575912877483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606816474147">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1340" height="325" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575912877483" />
-    <state width="1340" height="325" key="GridCell.Tab.1.center" timestamp="1575912877483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1606814440858">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1340" height="325" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575912877483" />
-    <state width="1340" height="325" key="GridCell.Tab.1.left" timestamp="1575912877483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606814440858" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1606814440857">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1340" height="325" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575912877483" />
-    <state width="1340" height="325" key="GridCell.Tab.1.right" timestamp="1575912877483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606814440857" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1606814440857">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1340" height="325" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575912877483" />
-    <state x="976" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1575904193393">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606814440857" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1606814440857">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="976" y="523" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575904193393" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1575914434843">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1575914434843" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606814440857" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="s02_y" />
