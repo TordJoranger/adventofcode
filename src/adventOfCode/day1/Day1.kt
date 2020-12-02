@@ -20,7 +20,6 @@ private fun sumOf2020op(list: List<Int>) : Int {
 
 private fun sumOf2020op2(list: List<Int>) : Int {
     val sortedList = list.sorted()
-
     sortedList.forEach{ z ->
         var left = 0
         var right = sortedList.size - 1
@@ -34,9 +33,7 @@ private fun sumOf2020op2(list: List<Int>) : Int {
             }
         }
     }
-
     return 0
-
 }
 
 

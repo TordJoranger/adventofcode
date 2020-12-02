@@ -20,19 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day1/day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day2/Day2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day2/day2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/Day1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +37,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="Kotlin Script" />
+        <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -113,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572946989025</updated>
-      <workItem from="1606810272910" duration="6684000" />
+      <workItem from="1606810272910" duration="12696000" />
     </task>
     <servers />
   </component>
@@ -136,6 +132,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-2788" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606913865344">
+      <screen x="-3840" y="28" width="2560" height="1400" />
+    </state>
+    <state x="-2788" y="530" key="#com.intellij.fileTypes.FileTypeChooser/-3840.28.2560.1400/3840.1083.1536.824/0.0.2560.1400@-3840.28.2560.1400" timestamp="1606913865344" />
     <state x="548" y="204" width="440" height="423" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1606810528929">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -144,22 +144,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="119" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1606814422315" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606816474147">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="210" key="GridCell.Tab.0.bottom" timestamp="1606917827036">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606816474147">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="210" key="GridCell.Tab.0.bottom/3840.1083.1536.816/0.0.2560.1400/-3840.28.2560.1400@0.0.2560.1400" timestamp="1606917827036" />
+    <state width="2517" height="210" key="GridCell.Tab.0.center" timestamp="1606917827036">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606816474147">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="210" key="GridCell.Tab.0.center/3840.1083.1536.816/0.0.2560.1400/-3840.28.2560.1400@0.0.2560.1400" timestamp="1606917827036" />
+    <state width="2517" height="210" key="GridCell.Tab.0.left" timestamp="1606917827036">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606816474147">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="210" key="GridCell.Tab.0.left/3840.1083.1536.816/0.0.2560.1400/-3840.28.2560.1400@0.0.2560.1400" timestamp="1606917827036" />
+    <state width="2517" height="210" key="GridCell.Tab.0.right" timestamp="1606917827036">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606816474147" />
+    <state width="2517" height="210" key="GridCell.Tab.0.right/3840.1083.1536.816/0.0.2560.1400/-3840.28.2560.1400@0.0.2560.1400" timestamp="1606917827036" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1606814440858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

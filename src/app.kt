@@ -2,7 +2,7 @@ import day6.day6part1
 import day6.day6part2
 
 fun main() {
-     println(adventOfCode.day1.day1())
+     println(adventOfCode.day2.day2())
 //     println(day3.day3part1())
 //     println(day3.day3part2())
     //println(day6part1())
