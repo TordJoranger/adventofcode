@@ -4,8 +4,8 @@ import Vector
 import kotlin.math.abs
 
 fun day3part1() : Int{
-    val lists1 = getVectors("src/day3/day3.1.txt")
-    val lists2 = getVectors("src/day3/day3.2.txt")
+    val lists1 = getVectors("src/day3.txt/day3.txt.1.txt")
+    val lists2 = getVectors("src/day3.txt/day3.txt.2.txt")
     return  findDistanceToIntersection(Int.MAX_VALUE, lists1, lists2)
 }
 
@@ -53,8 +53,8 @@ private fun closestPart1(cross: Pair<Int, Int>?, closest: Int): Int {
 fun day3part2() : Int {
 
     var closest : Int = Int.MAX_VALUE
-    val lists1 = getVectors("src/day3/day3.1.txt")
-    val lists2 = getVectors("src/day3/day3.2.txt")
+    val lists1 = getVectors("src/day3.txt/day3.txt.1.txt")
+    val lists2 = getVectors("src/day3.txt/day3.txt.2.txt")
 
     closest = findClosest(lists1.second, lists2.first, closest)
     closest = findClosest(lists2.second, lists1.first, closest)
