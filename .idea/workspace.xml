@@ -20,29 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day6/Day6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day6/day6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day6/day6test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day7/day7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day7/day7test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day8/Day8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day8/day8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day8/day8test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day2/Day2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day2/Day2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/Day4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/Day4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day5/Day5Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day5/Day5Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +76,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <option name="VM_PARAMETERS" />
@@ -127,6 +121,7 @@
       <workItem from="1607091036793" duration="2789000" />
       <workItem from="1607268888028" duration="8196000" />
       <workItem from="1607505950639" duration="1062000" />
+      <workItem from="1607523621886" duration="3890000" />
     </task>
     <task id="LOCAL-00001" summary="yesterday smt">
       <created>1606979594239</created>
@@ -213,12 +208,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
-          <line>18</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
-          <line>24</line>
+          <line>25</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -226,12 +216,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
-          <line>33</line>
+          <line>34</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -244,8 +234,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
-          <line>42</line>
+          <line>43</line>
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/adventOfCode/day8/Day8.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/adventOfCode/day8/Day8.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

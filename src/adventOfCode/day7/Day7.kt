@@ -2,20 +2,21 @@ package adventOfCode.day7
 
 import java.io.File
 
-class Bag(val Color: String, val Bags : MutableList<Pair<Bag,Int>>)
-
 fun day7() = countBags(File("src/adventOfCode/day7/day7").readLines())
 
 fun countBags(lines: List<String>): Int {
     val newlines = lines.map { l-> l.split(" ","contain", "bags","bag", ",", ".", "no", "other")
         .filter { l-> l.isNotBlank() }}.associateBy(keySelector ={l -> l[0]+" "+l[1]},valueTransform = {v -> createBagMap(v)})
 
+
+    //part1
 //    val set = HashMap<String,Int>()
 //    newlines.map { nl -> findGold(nl.value, Pair(nl.key,1), newlines,set)}.sum()
 
   val count = countChildren("shiny gold", newlines, 1)
 return count;
 
+    //part1
    // return set.values.sum();
 }
 
