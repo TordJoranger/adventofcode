@@ -1,5 +1,5 @@
 fun main() {
-     println(adventOfCode.day5.day5())
+     println(adventOfCode.day7.day7())
 //     println(day3.txt.day3part1())
 //     println(day3.txt.day3part2())
     //println(day6part1())
