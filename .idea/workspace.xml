@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="day9">
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day10/Day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day10/day10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day10/day10test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adventOfCode/day10/day10test2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2020_12_15_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2020_12_15__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <workItem from="1607523621886" duration="3890000" />
       <workItem from="1607587282982" duration="2990000" />
       <workItem from="1607604872195" duration="6260000" />
-      <workItem from="1607683032492" duration="12666000" />
+      <workItem from="1607683032492" duration="14495000" />
     </task>
     <task id="LOCAL-00001" summary="yesterday smt">
       <created>1606979594239</created>
