@@ -21,7 +21,7 @@ ecl:hzl
 byr:2009 hgt:164cm pid:104496116
 
 byr:1980
-hgt:181cm pid:192793676 hcl:8f6ae6 iyr:2021 eyr:1978
+hgt:181cm pid:192793676 hcl:8f6ae6 iyr:aoc2021 eyr:1978
 
 pid:#63f479 hgt:75cm
 hcl:z iyr:1956
@@ -49,7 +49,7 @@ hcl:#a97842
 hgt:68in
 pid:248926471 eyr:1930
 
-pid:048596900 iyr:2021 byr:2021 eyr:2021 cid:104
+pid:048596900 iyr:aoc2021 byr:aoc2021 eyr:aoc2021 cid:104
 hcl:c3c9e0 ecl:hzl
 hgt:75cm
 
@@ -140,7 +140,7 @@ iyr:2013
 hcl:#c6944c
 
 hcl:#888785 pid:177cm ecl:oth
-hgt:160cm eyr:2021 byr:1957
+hgt:160cm eyr:aoc2021 byr:1957
 iyr:2013
 
 iyr:2020 pid:6245137 eyr:2027 cid:111 hgt:181cm
@@ -236,7 +236,7 @@ hgt:61cm
 ecl:lzr byr:1980 hcl:1d4bc2 cid:306
 pid:763925614 eyr:2006
 
-byr:2021 eyr:2029
+byr:aoc2021 eyr:2029
 pid:610596568
 ecl:oth
 hcl:#7d3b0c
@@ -359,7 +359,7 @@ pid:3800489571 ecl:grn
 cid:91 hcl:94b4d1 hgt:59cm
 
 cid:199 byr:2030
-iyr:2021
+iyr:aoc2021
 hcl:c55653
 hgt:168cm
 pid:160cm
@@ -392,7 +392,7 @@ ecl:lzr byr:2015 iyr:1938
 eyr:2026 hcl:z
 pid:542894703 hgt:185
 
-eyr:2021 hcl:#cfa07d ecl:hzl hgt:82
+eyr:aoc2021 hcl:#cfa07d ecl:hzl hgt:82
 iyr:2018 byr:1932
 pid:661993261
 
@@ -422,7 +422,7 @@ pid:280206549 hgt:176cm
 eyr:2020 hcl:#fffffd
 
 pid:544634927
-eyr:2021 hgt:188cm byr:1947 iyr:2020
+eyr:aoc2021 hgt:188cm byr:1947 iyr:2020
 hcl:#008716 ecl:oth
 cid:97
 
@@ -517,7 +517,7 @@ hgt:74cm byr:2008 pid:874594495 eyr:2035
 ecl:lzr hgt:69cm
 hcl:76854c cid:336 pid:7830555583
 iyr:1920
-byr:2021 eyr:2038
+byr:aoc2021 eyr:2038
 
 hgt:160cm byr:2029 ecl:#7f9d1b hcl:z iyr:1975
 pid:652466273
@@ -573,7 +573,7 @@ ecl:oth hgt:161cm iyr:2015 pid:214576789 hcl:#866857
 ecl:oth pid:912009529 byr:1968 hgt:161cm
 hcl:#ceb3a1 eyr:2023 iyr:2017
 
-pid:858541281 hgt:150cm eyr:2021
+pid:858541281 hgt:150cm eyr:aoc2021
 iyr:2013 ecl:gry
 hcl:#fffffd byr:1959
 
@@ -658,7 +658,7 @@ pid:169cm
 cid:337 ecl:hzl hcl:#888785 byr:1927 hgt:153cm
 iyr:2022 eyr:2020
 
-byr:1963 hcl:#fffffd eyr:2021
+byr:1963 hcl:#fffffd eyr:aoc2021
 hgt:62in pid:702188504 iyr:2013
 ecl:hzl
 
@@ -795,7 +795,7 @@ iyr:2017 byr:1926
 hgt:190cm eyr:2028
 ecl:brn
 
-pid:812443511 hcl:#6b5442 eyr:2021 ecl:amb
+pid:812443511 hcl:#6b5442 eyr:aoc2021 ecl:amb
 cid:60 iyr:2017 hgt:157cm byr:1926
 
 hgt:177cm
@@ -811,7 +811,7 @@ pid:192cm
 hgt:114
 hcl:b97555 byr:2004 iyr:1970
 
-ecl:grn byr:2021 iyr:2030
+ecl:grn byr:aoc2021 iyr:2030
 hcl:z pid:305489303 hgt:61cm eyr:2020
 
 eyr:2036 hgt:179cm
@@ -836,7 +836,7 @@ hcl:#c0946f pid:105042852
 iyr:2010
 pid:485638522 hcl:949a37 eyr:2030
 hgt:193cm
-ecl:gry byr:2021
+ecl:gry byr:aoc2021
 
 pid:565896801 eyr:2029 hcl:#fffffd ecl:amb iyr:2016 byr:1977
 hgt:170cm
@@ -869,7 +869,7 @@ ecl:#b81c45 eyr:2034
 hcl:#623a2f cid:307 pid:204266921 hgt:172cm
 iyr:2012
 ecl:hzl
-eyr:2021
+eyr:aoc2021
 byr:1984
 
 hgt:192cm
@@ -1029,7 +1029,7 @@ ecl:grn
 hgt:185cm
 pid:920998407 iyr:2016 byr:1930 eyr:2029 hcl:#7d3b0c
 
-iyr:2021 eyr:1931
+iyr:aoc2021 eyr:1931
 hcl:z byr:2010
 hgt:177in
 pid:#cfb659 ecl:zzz
@@ -1047,7 +1047,7 @@ pid:6133497812
 hcl:#efcc98
 eyr:2037 iyr:2015
 
-hgt:176in pid:582383714 byr:1980 ecl:amb hcl:08097e iyr:2020 eyr:2021
+hgt:176in pid:582383714 byr:1980 ecl:amb hcl:08097e iyr:2020 eyr:aoc2021
 
 ecl:oth
 eyr:2024
@@ -1099,7 +1099,7 @@ iyr:2018 ecl:blu
 hcl:#a97842
 byr:1994 eyr:2024
 
-eyr:2021 iyr:2019 hgt:175cm cid:127 byr:1982 hcl:#888785 ecl:amb
+eyr:aoc2021 iyr:2019 hgt:175cm cid:127 byr:1982 hcl:#888785 ecl:amb
 
 eyr:2022 iyr:2011 ecl:blu
 pid:202081532 hcl:z hgt:177in byr:1923
