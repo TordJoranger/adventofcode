@@ -20,39 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="day9">
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day1/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day1/day1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day1/day1test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day2/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day2/day2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day3/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day3/day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day3/day3test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day4/Day4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day4/day4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2021/day4/day4test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aoc2021/day5/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aoc2021/day5/day5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day10/Day10Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day10/Day10Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day2/Day2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day2/Day2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/Day4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/Day4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/day4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/day4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day5/Day5Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day5/Day5Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day6/Day6Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt$findGold$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt$findGold$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt$findGold$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt$findGold$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day8/Day8Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day8/Day8Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day9/Day9Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day9/Day9Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day4/day4" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventOfCode/day4/day4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -394,11 +366,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/aoc2021/day4/Day4.kt</url>
-          <line>16</line>
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/aoc2021/day4/Day4.kt</url>
           <line>46</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
@@ -408,32 +375,20 @@
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/aoc2021/day4/Day4.kt</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/src/aoc2021/day5/Day5.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/aoc2021/day5/Day5.kt</url>
+          <line>34</line>
           <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/aoc2021/day4/Day4.kt</url>
-          <line>69</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/aoc2021/day4/Day4.kt</url>
-          <line>61</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="199" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="s02_y" />
-        <watch expression="((day6.Node[])parentOfYou)[45]" custom="day6.Node[]" />
+        <watch expression="matrix" />
       </configuration>
       <configuration name="Application">
         <watch expression="((java.util.ArrayList)count).get(3)" custom="java.util.ArrayList" />
