@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="add downloading">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day3/Day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/InputReader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/inputs/2022-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/adventofcode-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/adventofcode.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day1/day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day1/day1test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day2/day2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day3/day3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day3/day3test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day4/day4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day4/day4test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2021/day5/day5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2022/day1/day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aoc2022/day2/day2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/AppKt$$$main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/AppKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/AppKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day1/Day1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day2/Day2Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day3/Day3Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day4/Day4Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day5/Day5Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day5/Vector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2022/day1/Day1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/aoc2022/day2/Day2Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt$getInput$$inlined$use$lambda$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt$getInput$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/common/Vector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day1/Day1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day10/Day10Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day2/Day2Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day3/Day3Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day4/Day4Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day5/Day5Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day6/Day6Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt$findGold$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt$findGold$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day8/Day8Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day9/Day9Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day1/Day1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day3/Day3FunctionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day3/Day3Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day6/Day6Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day6/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day1/day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day10/day10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day10/day10test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day10/day10test2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day2/day2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day3/day3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day3/day3test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day4/day4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day4/day4test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day5/day5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day6/day6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day6/day6test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day7/day7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day7/day7test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day8/day8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day8/day8test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day9/day9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/adventOfCode2019/day9/day9test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day1/day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day1/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day1/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day3/day3.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day3/day3.2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day6/day6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day6/test6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pre2021/aoc2020/day6/test6part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/Day1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day1/day1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day10/Day10Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day10/day10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day10/day10test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day10/day10test2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day2/Day2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day2/day2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day3/Day3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day3/day3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day3/day3test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/Day4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/day4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day4/day4test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day5/Day5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day5/day5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day6/Day6Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day6/day6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day6/day6test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt$findGold$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt$findGold$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/Day7Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/day7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day7/day7test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day8/Day8Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day8/day8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day8/day8test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day9/Day9Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day9/day9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/adventOfCode/day9/day9test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day1/Day1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day1/day1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day1/day1test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day2/Day2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day2/day2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day3/Day3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day3/day3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day3/day3test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day4/Day4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day4/day4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day4/day4test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/Day5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/day5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2022/day1/Day1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2022/day1/day1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2022/day2/Day2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2022/day2/day2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/Day1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/day1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day1/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3FunctionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/Day3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/day3.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day3/day3.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Day6Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/day6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/test6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/day6/test6part2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/common/Vector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day1/day1test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day1/day1test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day2/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day2/day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day2/day2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day3/day3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day3/day3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day3/day3test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day3/day3test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day4/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day4/Day4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day4/day4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day4/day4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day4/day4test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day4/day4test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day5/Day5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day5/day5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day5/day5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2022/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2022/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2022/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day2/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2022/day2/day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day2/day2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/Day10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day10/Day10.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/day10" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day10/day10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/day10test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day10/day10test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/day10test2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day10/day10test2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day2/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day2/day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day2/day2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day3/day3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day3/day3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day3/day3test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day3/day3test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day4/Day4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/day4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day4/day4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/day4test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day4/day4test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day5/Day5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day5/day5" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day5/day5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day6/Day6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/day6" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day6/day6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/day6test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day6/day6test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day7/Day7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/day7" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day7/day7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/day7test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day7/day7test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/Day8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day8/Day8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/day8" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day8/day8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/day8test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day8/day8test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day9/Day9.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/day9" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day9/day9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/day9test" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/adventOfCode2019/day9/day9test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day1/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day1/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/Day3Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day3/Day3Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/day3.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day3/day3.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/day3.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day3/day3.2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day6/Day6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/day6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day6/day6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/test6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day6/test6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/test6part2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pre2021/aoc2020/day6/test6part2.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1TBwqguxzxrQS34RBkKEgdbtjeM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tordj\IdeaProjects\adventofcode\src\main\java" />
+      <recent name="C:\Users\tordj\IdeaProjects\adventofcode\src\aoc2022\day1" />
+      <recent name="C:\Users\tordj\IdeaProjects\adventofcode\src\aoc2021\day1" />
+      <recent name="C:\W\beerCode\adventofcode\adventofcode\src\2020\day1" />
+      <recent name="C:\Users\Tordj\IdeaProjects\adventofcode\src\day3" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="common" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="sessionCookie" value="53616c7465645f5f8bda34efa34d1f84f55947e2cfaf9f26cf0b4e5dcc1f32345e55b3f1e6efb90cd9f5015f249eb452171d3cd923c87099aba5ee0314f04b84" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="main.AppKt" />
+      <module name="adventofcode" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.AppKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="" />
+      <created>1572946989025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572946989025</updated>
+      <workItem from="1606810272910" duration="24004000" />
+      <workItem from="1607070660894" duration="3749000" />
+      <workItem from="1607076131884" duration="9832000" />
+      <workItem from="1607090848175" duration="164000" />
+      <workItem from="1607091036793" duration="2789000" />
+      <workItem from="1607268888028" duration="8196000" />
+      <workItem from="1607505950639" duration="1062000" />
+      <workItem from="1607523621886" duration="3890000" />
+      <workItem from="1607587282982" duration="2990000" />
+      <workItem from="1607604872195" duration="6260000" />
+      <workItem from="1607683032492" duration="14495000" />
+    </task>
+    <task id="LOCAL-00001" summary="yesterday smt">
+      <created>1606979594239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606979594239</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day3">
+      <created>1606986564498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606986564498</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day3">
+      <created>1606986780689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606986780689</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day9">
+      <created>1607613802676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607613802676</updated>
+    </task>
+    <task id="LOCAL-00005" summary="day9">
+      <created>1607613813502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607613813502</updated>
+    </task>
+    <task id="LOCAL-00006" summary="day 9">
+      <created>1607684574818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607684574818</updated>
+    </task>
+    <task id="LOCAL-00007" summary="day 9">
+      <created>1607684634879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607684634879</updated>
+    </task>
+    <task id="LOCAL−00008" summary="day5">
+      <created>1639129552520</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1639129552520</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2022 day 1+2">
+      <created>1669975848856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975848856</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2022 day 1+2">
+      <created>1669976339915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669976339915</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2022 day 1+2">
+      <created>1669976353552</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669976353552</updated>
+    </task>
+    <task id="LOCAL-00012" summary="smt">
+      <created>1669976400702</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669976400702</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor of mappings">
+      <created>1669977286174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669977286174</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="yesterday smt" />
+    <MESSAGE value="day3" />
+    <MESSAGE value="day9" />
+    <MESSAGE value="day 9" />
+    <MESSAGE value="day5" />
+    <MESSAGE value="2022 day 1+2" />
+    <MESSAGE value="smt" />
+    <MESSAGE value="refactor of mappings" />
+    <MESSAGE value="add downloading" />
+    <option name="LAST_COMMIT_MESSAGE" value="add downloading" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/app.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/common/InputReader.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/common/InputReader.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="matrix" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="((java.util.ArrayList)count).get(3)" custom="java.util.ArrayList" />
+        <watch expression="newlines" />
+        <watch expression="map" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+        <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+        <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+        <item name="src" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+        <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+        <item name="src" type="462c0819:PsiDirectoryNode" />
+        <item name="main" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
