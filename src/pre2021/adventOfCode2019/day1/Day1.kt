@@ -1,8 +1,8 @@
-package adventOfCode.day1
+package pre2021.adventOfCode2019.day1
 import java.io.File
 
 
-fun day1() = sumOf2020op2(File("src/adventOfCode/day1/day1.txt").readLines().map { it.toInt() })
+fun day1() = sumOf2020op2(File("src/pre2021.adventOfCode/pre2021.day1/pre2021.day1.txt").readLines().map { it.toInt() })
 
 private fun sumOf2020op(list: List<Int>) : Int {
     val sortedList = list.sorted()

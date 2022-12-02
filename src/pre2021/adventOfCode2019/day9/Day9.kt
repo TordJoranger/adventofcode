@@ -1,8 +1,8 @@
-package adventOfCode.day9
+package pre2021.adventOfCode2019.day9
 
 import java.io.File
 
-fun day9() = part2(File("src/adventOfCode/day9/day9").readLines().map { it.toLong() })
+fun day9() = part2(File("src/pre2021.adventOfCode/day9/day9").readLines().map { it.toLong() })
 
 fun part2(list: List<Long>): Long {
 return  findTheBadSeedP2(list,list)

@@ -1,7 +1,7 @@
-package adventOfCode.day2
+package pre2021.adventOfCode2019.day2
 import java.io.File
 
-fun day2() = countValidPasswords(File("src/adventOfCode/day2/day2.txt").readLines())
+fun day2() = countValidPasswords(File("src/pre2021.adventOfCode/day2/day2.txt").readLines())
 
 private fun countValidPasswords(list: List<String>) : Int  {
    return  list.sumBy { s ->

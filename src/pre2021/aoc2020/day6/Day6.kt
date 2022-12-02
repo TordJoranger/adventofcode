@@ -1,4 +1,4 @@
-package day6
+package pre2021.aoc2020.day6
 import java.io.File
 
 private class Node(val Name: String, val Children : List<Node>)
@@ -43,7 +43,7 @@ private fun countNodes(node: Node, nodes: Map<String,Node>, count: Int) :Int{
 }
 
 private fun getNodes(): Map<String, Node> {
-  return  getMap(emptyMap(),File("src/day6/day6.txt").readLines())
+  return  getMap(emptyMap(),File("src/pre2021.day6/pre2021.day6.txt").readLines())
 }
 
 private fun getMap(

@@ -1,8 +1,8 @@
-package adventOfCode.day3
+package pre2021.adventOfCode2019.day3
 
 import java.io.File
 
-fun day3() = countTreesPart2(File("src/adventOfCode/day3/day3.txt").readLines())
+fun day3() = countTreesPart2(File("src/pre2021.adventOfCode/pre2021.day3/pre2021.day3.txt").readLines())
 
 private fun countTreesPart1(list: List<String>) : Long {
     return countTrees(list,1,3);

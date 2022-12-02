@@ -2,7 +2,7 @@ package aoc2021.day1
 
 import java.io.File
 
-fun day1() = countIncrementsPart2(File("src/aoc2021/day1/day1.txt").readLines())
+fun day1() = countIncrementsPart2(File("src/aoc2021/pre2021.day1/pre2021.day1.txt").readLines())
 
 fun countIncrements(list: List<String>): Int {
 

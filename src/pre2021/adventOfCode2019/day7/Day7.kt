@@ -1,12 +1,12 @@
-package adventOfCode.day7
+package pre2021.adventOfCode2019.day7
 
 import java.io.File
 
-fun day7() = countBags(File("src/adventOfCode/day7/day7").readLines())
+fun day7() = countBags(File("src/pre2021.adventOfCode/day7/day7").readLines())
 
 fun countBags(lines: List<String>): Int {
     val newlines = lines.map { l-> l.split(" ","contain", "bags","bag", ",", ".", "no", "other")
-        .filter { l-> l.isNotBlank() }}.associateBy(keySelector ={l -> l[0]+" "+l[1]},valueTransform = {v -> createBagMap(v)})
+        .filter { l-> l.isNotBlank() }}.associateBy(keySelector ={l -> l[0]+" "+l[1]},valueTransform = {v -> createBagMap(v) })
 
 
     //part1

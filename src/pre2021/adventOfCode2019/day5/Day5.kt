@@ -1,9 +1,9 @@
-package adventOfCode.day5
+package pre2021.adventOfCode2019.day5
 
 
 import java.io.File
 
-fun day5() = highestBoardingPass(File("src/adventOfCode/day5/day5").readLines())
+fun day5() = highestBoardingPass(File("src/pre2021.adventOfCode/day5/day5").readLines())
 
 fun highestBoardingPass(readLines: List<String>): Int {
 

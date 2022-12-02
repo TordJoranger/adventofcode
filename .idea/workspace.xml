@@ -22,7 +22,53 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="2022 day 1+2" />
+    <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="smt">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day10/Day10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/Day10.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day10/day10" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/day10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day10/day10test" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/day10test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day10/day10test2" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/day10test2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day2/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day2/day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day2/day2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day3/day3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day3/day3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day3/day3test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day3/day3test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day4/Day4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/Day4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day4/day4" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/day4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day4/day4test" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/day4test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day5/Day5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day5/day5" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day5/day5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day6/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/Day6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day6/day6" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/day6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day6/day6test" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/day6test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day7/day7" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/day7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day7/day7test" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/day7test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day8/Day8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/Day8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day8/day8" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/day8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day8/day8test" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/day8test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day9/Day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day9/day9" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/day9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventOfCode/day9/day9test" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/day9test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc2021/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2021/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc2021/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc2022/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc2022/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day1/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/Day3Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/Day3Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/day3.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/day3.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/day3.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day3/day3.2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/Day6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/day6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/day6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/test6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/test6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/test6part2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pre2021/aoc2020/day6/test6part2.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669976353552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="smt">
+      <created>1669976400702</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669976400702</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,48 +276,49 @@
     <MESSAGE value="day 9" />
     <MESSAGE value="day5" />
     <MESSAGE value="2022 day 1+2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 day 1+2" />
+    <MESSAGE value="smt" />
+    <option name="LAST_COMMIT_MESSAGE" value="smt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day1/Day1.kt</url>
           <line>17</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day1/Day1.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day1/Day1.kt</url>
           <line>12</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day4/Day4.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day4/Day4.kt</url>
           <line>21</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day5/Day5.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day5/Day5.kt</url>
           <line>25</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day6/Day6.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/Day6.kt</url>
           <line>13</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day6/Day6.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/Day6.kt</url>
           <line>10</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day6/Day6.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day6/Day6.kt</url>
           <line>18</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt</url>
           <line>25</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -272,12 +326,12 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt</url>
           <line>30</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt</url>
           <line>34</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -285,67 +339,67 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt</url>
           <line>16</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day7/Day7.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day7/Day7.kt</url>
           <line>43</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day8/Day8.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/Day8.kt</url>
           <line>12</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day8/Day8.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day8/Day8.kt</url>
           <line>13</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day9/Day9.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt</url>
           <line>63</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day9/Day9.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt</url>
           <line>20</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day9/Day9.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt</url>
           <line>35</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day9/Day9.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt</url>
           <line>36</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day9/Day9.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day9/Day9.kt</url>
           <line>44</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day10/Day10.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/Day10.kt</url>
           <line>29</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day10/Day10.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/Day10.kt</url>
           <line>34</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day10/Day10.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/Day10.kt</url>
           <line>32</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/adventOfCode/day10/Day10.kt</url>
+          <url>file://$PROJECT_DIR$/src/pre2021/adventOfCode2019/day10/Day10.kt</url>
           <line>21</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>

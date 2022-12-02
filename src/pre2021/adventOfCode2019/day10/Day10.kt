@@ -1,8 +1,8 @@
-package adventOfCode.day10
+package pre2021.adventOfCode2019.day10
 
 import java.io.File
 
-fun day10() = arrangementCounter(File("src/adventOfCode/day10/day10").readLines().map { it.toLong() }.plus(0).sorted())
+fun day10() = arrangementCounter(File("src/pre2021.adventOfCode/day10/day10").readLines().map { it.toLong() }.plus(0).sorted())
 
 
 fun arrangementCounter(list: List<Long>) : Long {

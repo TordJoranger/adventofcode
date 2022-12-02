@@ -1,8 +1,8 @@
-package day1
+package pre2021.aoc2020.day1
 
 import java.io.File
 
-fun day1() = fuel(File("src/adventOfCode.day1.day1/adventOfCode.day1.day1.txt").readLines().map { it.toInt() })
+fun day1() = fuel(File("src/pre2021.adventOfCode.pre2021.day1.pre2021.day1/pre2021.adventOfCode.pre2021.day1.pre2021.day1.txt").readLines().map { it.toInt() })
 
   private fun calc(x : Int) : Int {
         val y = x/3 - 2

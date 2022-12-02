@@ -1,8 +1,8 @@
-package adventOfCode.day8
+package pre2021.adventOfCode2019.day8
 
 import java.io.File
 
-fun day8() = accumulatePart2(File("src/adventOfCode/day8/day8").readLines())
+fun day8() = accumulatePart2(File("src/pre2021.adventOfCode/day8/day8").readLines())
 
 fun accumulate(lines: List<String>): Long {
     var acc = 0L

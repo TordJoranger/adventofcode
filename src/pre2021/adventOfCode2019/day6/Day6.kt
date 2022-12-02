@@ -1,8 +1,8 @@
-package adventOfCode.day6
+package pre2021.adventOfCode2019.day6
 
 import java.io.File
 
-fun day6() = File("src/adventOfCode/day6/day6")
+fun day6() = File("src/pre2021.adventOfCode/pre2021.day6/pre2021.day6")
     .readText().split("\r\n\r\n")
     .map { it
         .split(Regex("\\s"))
@@ -13,7 +13,7 @@ fun day6() = File("src/adventOfCode/day6/day6")
     }
     .sum()
 
-fun day6part2() = File("src/adventOfCode/day6/day6")
+fun day6part2() = File("src/pre2021.adventOfCode/pre2021.day6/pre2021.day6")
     .readText().split("\r\n\r\n")
     .mapIndexed { index, s ->
         s.split(Regex("\\s"))

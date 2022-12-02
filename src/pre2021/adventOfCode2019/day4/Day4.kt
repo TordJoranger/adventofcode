@@ -1,8 +1,8 @@
-package adventOfCode.day4
+package pre2021.adventOfCode2019.day4
 
 import java.io.File
 
-fun day4Stolen() = File("src/adventOfCode/day4/day4")
+fun day4Stolen() = File("src/pre2021.adventOfCode/day4/day4")
     .readText().split("\r\n\r\n")
     .map { it
         .split(Regex("\\s"))
@@ -14,7 +14,7 @@ fun day4Stolen() = File("src/adventOfCode/day4/day4")
     .count { it == "bceehhip" || it == "beehhip" }
 
 
-    fun day4() = countValidPassports(File("src/adventOfCode/day4/day4").readText())
+    fun day4() = countValidPassports(File("src/pre2021.adventOfCode/day4/day4").readText())
 
     private fun countValidPassports(s: String): Long {
         val list = s.split("\r\n\r\n").map{x -> x.replace("\r\n", " ")}

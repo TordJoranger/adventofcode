@@ -2,7 +2,7 @@ package aoc2021.day3
 
 import java.io.File
 
-fun day3() = getPowerConsumptionP2(File("src/aoc2021/day3/day3.txt").readLines())
+fun day3() = getPowerConsumptionP2(File("src/aoc2021/pre2021.day3/pre2021.day3.txt").readLines())
 
 
 fun getPowerConsumptionP2(list: List<String>): Long {

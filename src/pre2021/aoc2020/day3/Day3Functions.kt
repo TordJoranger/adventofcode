@@ -1,4 +1,4 @@
-package day3
+package pre2021.aoc2020.day3
 
 import Vector
 import java.io.File
