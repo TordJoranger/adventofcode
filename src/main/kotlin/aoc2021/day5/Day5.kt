@@ -13,7 +13,7 @@ fun countLines(readLines: List<String>): Long {
         Vector(pairs[0],pairs[1])
     }
     var count = 0
-    val max = readLines.map { l -> l.split(" -> ", ",") }.flatMap { n-> n.map(String::toInt) }.max()!!
+    val max = readLines.map { l -> l.split(" -> ", ",") }.flatMap { n-> n.map(String::toInt) }.maxOf { it }
     val matrix: Array<IntArray> = Array(max+1) { IntArray(max+1) }
     vectors.forEach { v ->
         if(v.Start.first == v.End.first){
