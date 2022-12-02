@@ -22,19 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="day5">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2022/day1/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2022/day1/day1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2022/day2/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc2022/day2/day2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/META-INF/AdventOfCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/Day5Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/Day5Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCode/aoc2021/day5/Vector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
-    </list>
+    <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="2022 day 1+2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +177,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1639129552520</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2022 day 1+2">
+      <created>1669975848856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975848856</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +208,8 @@
     <MESSAGE value="day9" />
     <MESSAGE value="day 9" />
     <MESSAGE value="day5" />
-    <option name="LAST_COMMIT_MESSAGE" value="day5" />
+    <MESSAGE value="2022 day 1+2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 day 1+2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
