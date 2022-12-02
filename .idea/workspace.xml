@@ -22,48 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="add downloading">
+    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2021/day5/Day5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day1/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/adventofcode-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/adventofcode-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/adventofcode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/adventofcode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/AppKt$$$main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/AppKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AppKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2021/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2021/day2/Day2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day2/Day2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2021/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2021/day4/Day4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day4/Day4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2021/day5/Day5Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day5/Day5Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2021/day5/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2021/day5/Vector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2022/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2022/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/aoc2022/day2/Day2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/aoc2022/day2/Day2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt$getInput$$inlined$use$lambda$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt$getInput$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt$getInput$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/common/InputReaderKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/common/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/common/Vector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day10/Day10Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day10/Day10Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day2/Day2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day2/Day2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day4/Day4Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day4/Day4Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day5/Day5Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day5/Day5Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day6/Day6Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt$findGold$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt$findGold$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day7/Day7Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day8/Day8Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day8/Day8Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day9/Day9Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/adventOfCode2019/day9/Day9Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day1/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day1/Day1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day3/Day3FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day3/Day3FunctionsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day3/Day3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day3/Day3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day6/Day6Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day6/Day6Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day6/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/pre2021/aoc2020/day6/Node.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +43,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -271,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669976400702</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix">
+      <created>1669997184611</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669997184611</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +263,11 @@
             <State />
           </value>
         </entry>
+        <entry key="eacf23a0-0a85-4002-af83-f10980bc3552">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -308,7 +280,8 @@
     <MESSAGE value="day5" />
     <MESSAGE value="2022 day 1+2" />
     <MESSAGE value="smt" />
-    <option name="LAST_COMMIT_MESSAGE" value="smt" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
