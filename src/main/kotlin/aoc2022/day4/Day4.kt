@@ -5,17 +5,11 @@ fun part1(input: File) : Int =input.readLines().sumOf(::getOverLapsP1)
 fun part2(input: File) : Int = input.readLines().sumOf(::getOverLapsP2)
 
 private fun getOverLapsP1(it: String) : Int {
-    val ranges = getRangesAsSets(it)
-    val commonSize = ranges[0].intersect(ranges[1]).size
-    return if (commonSize == ranges[0].size || commonSize == ranges[1].size) 1 else 0
+    val (a,b) = it.split(",").map{it.split("-").map(String::toInt) }
+    return if (a[0] <= b[0] && a[1] >= b[1] || b[0] <= a[0] && b[1] >= a[1]) 1 else 0
 }
 
 private fun getOverLapsP2(it: String) : Int {
-    val ranges = getRangesAsSets(it)
-    return if (ranges[0].intersect(ranges[1]).isNotEmpty()) 1 else 0
-}
-
-private fun getRangesAsSets(it: String) = it.split(",").map { s ->
-    val intSet = s.split("-").map { it.toInt() }
-    (intSet[0]..intSet[1]).toSet()
+    val (a,b) = it.split(",").map{it.split("-").map(String::toInt) }.map { it[0]..it[1] }
+    return if (a.intersect(b).isNotEmpty()) 1 else 0
 }
