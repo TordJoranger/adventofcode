@@ -16,6 +16,6 @@ private fun getOverLapsP2(it: String) : Int {
 }
 
 private fun getRangesAsSets(it: String) = it.split(",").map { s ->
-    val intList = s.split("-").map { it.toInt() }
-    (intList[0]..intList[1]).toSet()
+    val intSet = s.split("-").map { it.toInt() }
+    (intSet[0]..intSet[1]).toSet()
 }
