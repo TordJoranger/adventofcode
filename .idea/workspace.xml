@@ -22,10 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 4 count">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day5/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day6/Day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/inputs/2022-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/inputs/2022-6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/adventofcode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/adventofcode.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/AppKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AppKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AppKt.class" afterDir="false" />
     </list>
+    <list id="6b3fc043-bcc4-428c-92fc-b43611caddd7" name="ingnored" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +43,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="Kotlin Script" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -131,7 +139,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d5215e1-34be-4ac4-83fb-0cae569544ef" name="Default Changelist" comment="" />
+      <changelist id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 4" />
       <created>1572946989025</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -238,7 +246,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669997184611</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix">
+      <created>1669997330635</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669997330635</updated>
+    </task>
+    <task id="LOCAL-00015" summary="day 4">
+      <created>1670158031424</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670158031424</updated>
+    </task>
+    <task id="LOCAL-00016" summary="day 4">
+      <created>1670158435313</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670158435313</updated>
+    </task>
+    <task id="LOCAL-00017" summary="day 4 count">
+      <created>1670162551035</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670162551035</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +317,9 @@
     <MESSAGE value="2022 day 1+2" />
     <MESSAGE value="smt" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="day 4" />
+    <MESSAGE value="day 4 count" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4 count" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,11 +515,46 @@
           <line>7</line>
           <option name="timeStamp" value="202" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day3/Day3.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day5/Day5.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day5/Day5.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day5/Day5.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day5/Day5.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day6/Day6.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="matrix" />
+        <watch expression="stacks" />
       </configuration>
       <configuration name="Application">
         <watch expression="((java.util.ArrayList)count).get(3)" custom="java.util.ArrayList" />
