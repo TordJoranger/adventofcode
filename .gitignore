@@ -2,3 +2,4 @@
 .idea/
 /target/
 /.idea/
+/src/main/kotlin/common/inputs/
