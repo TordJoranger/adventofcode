@@ -1,6 +1,5 @@
 package aoc2022.day8
 
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.*
 import java.io.File
 

@@ -22,26 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="delete target">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day10/Day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day8/Day8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day9/Day9.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/common/inputs/2022-8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day10/Day10KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day10/test10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day8/Day8KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day8/test8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day9/Day9KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day9/test9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 1-2 2023">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day11/Day11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day12/Day12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day1/Day1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day2/Day2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day3/Day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day11/Day11KtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day11/test11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day12/Day12KtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day12/test12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day2/Day2Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day2/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day3/Day3Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day3/test3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day8/Day8KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day8/Day8KtTest.kt" afterDir="false" />
     </list>
-    <list id="6b3fc043-bcc4-428c-92fc-b43611caddd7" name="ingnored" comment="ingnored">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="6b3fc043-bcc4-428c-92fc-b43611caddd7" name="ingnored" comment="ingnored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,38 +51,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="JUnit5 Test Class" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="package-info" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="24" end1="29" start2="24" end2="36" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="30" end1="30" start2="37" end2="39" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="31" end1="34" start2="40" end2="43" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="35" end1="36" start2="44" end2="44" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="44" end1="44" start2="52" end2="55" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="46" end1="48" start2="57" end2="57" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="54" end1="54" start2="63" end2="88" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="79" end1="79" start2="113" end2="115" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="92" end1="92" start2="128" end2="135" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="108" end1="108" start2="151" end2="198" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="128" end1="128" start2="218" end2="219" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="130" end1="130" start2="221" end2="223" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="134" end1="134" start2="227" end2="230" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="276" end1="277" start2="372" end2="401" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="321" end1="322" start2="445" end2="450" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="547" end1="547" start2="675" end2="753" changelist="9f71bdd8-55ee-4d37-99fb-a306888077cc" />
-        <range start1="557" end1="557" start2="763" end2="764" changelist="6b3fc043-bcc4-428c-92fc-b43611caddd7" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -112,7 +90,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
@@ -129,6 +107,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="aoc2022.day12" />
+      <recent name="aoc2022.day11" />
       <recent name="aoc2022.day9" />
       <recent name="aoc2022.day8" />
     </key>
@@ -147,64 +127,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day10KtTest.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day3Test$Day3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aoc2022.day10.*" />
+          <option name="PATTERN" value="aoc2023.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aoc2022.day10" />
-      <option name="MAIN_CLASS_NAME" value="aoc2022.day10.Day10KtTest" />
-      <option name="METHOD_NAME" value="part1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="aoc2023.day3.Day3Test" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test$Day3Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day10KtTest.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day3Test$Day3Test.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aoc2022.day10.*" />
+          <option name="PATTERN" value="aoc2023.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aoc2022.day10" />
-      <option name="MAIN_CLASS_NAME" value="aoc2022.day10.Day10KtTest" />
+      <option name="PACKAGE_NAME" value="aoc2023.day3.Day3Test" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test$Day3Test" />
+      <option name="METHOD_NAME" value="part1" />
+      <option name="TEST_OBJECT" value="method" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:aoc2023.day3.Day3Test$Day3Test]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day3Test$Day3Test.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aoc2023.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aoc2023.day3.Day3Test" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test$Day3Test" />
       <option name="METHOD_NAME" value="part2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day9KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aoc2022.day9.*" />
+          <option name="PATTERN" value="aoc2023.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aoc2022.day9" />
-      <option name="MAIN_CLASS_NAME" value="aoc2022.day9.Day9KtTest" />
+      <option name="PACKAGE_NAME" value="aoc2023.day3" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.AppKt" />
-      <module name="adventofcode" />
-      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <envs>
-        <env name="sessionCookie" value="53616c7465645f5f8bda34efa34d1f84f55947e2cfaf9f26cf0b4e5dcc1f32345e55b3f1e6efb90cd9f5015f249eb452171d3cd923c87099aba5ee0314f04b84" />
+        <env name="sessionCookie" value="53616c7465645f5f2905f179c7958508c5b383b486949123eced222addebc1b5b2902726403b201d158315a31081b098a0aa70c4e2e0aeeb2b8a8d630c1be5e4" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="main.AppKt" />
       <module name="adventofcode" />
@@ -214,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Day9KtTest" />
+      <item itemvalue="JUnit.Day3Test$Day3Test" />
+      <item itemvalue="JUnit.Day3Test$Day3Test.part1" />
+      <item itemvalue="JUnit.Day3Test" />
       <item itemvalue="Kotlin.AppKt" />
-      <item itemvalue="Kotlin.AppKt (1)" />
-      <item itemvalue="JUnit.Day10KtTest.part1" />
-      <item itemvalue="JUnit.Day10KtTest.part2" />
+      <item itemvalue="JUnit.Day3Test$Day3Test.part2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.AppKt" />
-        <item itemvalue="JUnit.Day10KtTest.part2" />
-        <item itemvalue="JUnit.Day10KtTest.part1" />
-        <item itemvalue="JUnit.Day9KtTest" />
-        <item itemvalue="Kotlin.AppKt (1)" />
+        <item itemvalue="JUnit.Day3Test$Day3Test.part2" />
+        <item itemvalue="JUnit.Day3Test$Day3Test.part1" />
+        <item itemvalue="JUnit.Day3Test$Day3Test" />
+        <item itemvalue="JUnit.Day3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670432054766</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day 9 and 10">
+      <created>1671458255451</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671458255451</updated>
+    </task>
+    <task id="LOCAL-00023" summary="day 9 and 10">
+      <created>1671458361624</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671458361624</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +449,9 @@
     <MESSAGE value="day 7, it has been done better.." />
     <MESSAGE value="delete target" />
     <MESSAGE value="ingnored" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingnored" />
+    <MESSAGE value="day 9 and 10" />
+    <MESSAGE value="day 1-2 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 1-2 2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,6 +740,24 @@
           <line>56</line>
           <option name="timeStamp" value="291" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day11/Day11.kt</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day11/Day11.kt</url>
+          <line>35</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2022/day12/Day12.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -743,7 +767,7 @@
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="stacks" />
+        <watch expression="((java.util.ArrayList)monkeys).get(2)" custom="java.util.ArrayList" />
       </configuration>
       <configuration name="Application">
         <watch expression="((java.util.ArrayList)count).get(3)" custom="java.util.ArrayList" />
