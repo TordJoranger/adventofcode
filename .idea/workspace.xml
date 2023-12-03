@@ -22,25 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 1-2 2023">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day11/Day11.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2022/day12/Day12.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day1/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day2/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day3/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day11/Day11KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day11/test11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day12/Day12KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day12/test12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day2/Day2Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day2/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day3/Day3Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day3/test3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day8/Day8KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2022/day8/Day8KtTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 1-2 2023" />
     <list id="6b3fc043-bcc4-428c-92fc-b43611caddd7" name="ingnored" comment="ingnored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671458361624</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="day 1-2 2023">
+      <created>1701629049277</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1701629049277</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
