@@ -22,7 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 1-2 2023" />
+    <list default="true" id="9f71bdd8-55ee-4d37-99fb-a306888077cc" name="Changes" comment="day 1-2 2023">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day4/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aoc2023/day5/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day4/Day4Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day4/test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day5/Day5Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/aoc2023/day5/test5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
+    </list>
     <list id="6b3fc043-bcc4-428c-92fc-b43611caddd7" name="ingnored" comment="ingnored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +104,7 @@
       <recent name="aoc2022.day8" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AppKt">
+  <component name="RunManager" selected="JUnit.Day5Test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -109,67 +118,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3Test$Day3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day4Test.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aoc2023.day3.*" />
+          <option name="PATTERN" value="aoc2023.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aoc2023.day3.Day3Test" />
-      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test$Day3Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day3Test$Day3Test.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aoc2023.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aoc2023.day3.Day3Test" />
-      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test$Day3Test" />
-      <option name="METHOD_NAME" value="part1" />
-      <option name="TEST_OBJECT" value="method" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:aoc2023.day3.Day3Test$Day3Test]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day3Test$Day3Test.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aoc2023.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aoc2023.day3.Day3Test" />
-      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test$Day3Test" />
+      <option name="PACKAGE_NAME" value="aoc2023.day4" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day4.Day4Test" />
       <option name="METHOD_NAME" value="part2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aoc2023.day3.*" />
+          <option name="PATTERN" value="aoc2023.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aoc2023.day3" />
-      <option name="MAIN_CLASS_NAME" value="aoc2023.day3.Day3Test" />
+      <option name="PACKAGE_NAME" value="aoc2023.day5" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day5.Day5Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day5Test.part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aoc2023.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aoc2023.day5" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day5.Day5Test" />
+      <option name="METHOD_NAME" value="part1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day5Test.part2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aoc2023.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aoc2023.day5" />
+      <option name="MAIN_CLASS_NAME" value="aoc2023.day5.Day5Test" />
+      <option name="METHOD_NAME" value="part2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Day3Test$Day3Test" />
-      <item itemvalue="JUnit.Day3Test$Day3Test.part1" />
-      <item itemvalue="JUnit.Day3Test" />
       <item itemvalue="Kotlin.AppKt" />
-      <item itemvalue="JUnit.Day3Test$Day3Test.part2" />
+      <item itemvalue="JUnit.Day4Test.part2" />
+      <item itemvalue="JUnit.Day5Test" />
+      <item itemvalue="JUnit.Day5Test.part1" />
+      <item itemvalue="JUnit.Day5Test.part2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day5Test" />
+        <item itemvalue="JUnit.Day5Test.part1" />
         <item itemvalue="Kotlin.AppKt" />
-        <item itemvalue="JUnit.Day3Test$Day3Test.part2" />
-        <item itemvalue="JUnit.Day3Test$Day3Test.part1" />
-        <item itemvalue="JUnit.Day3Test$Day3Test" />
-        <item itemvalue="JUnit.Day3Test" />
+        <item itemvalue="JUnit.Day5Test.part2" />
+        <item itemvalue="JUnit.Day4Test.part2" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701629049277</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="day 1-2 2023">
+      <created>1701629536506</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701629536506</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,16 +761,51 @@
           <line>29</line>
           <option name="timeStamp" value="331" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2023/day4/Day4.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2023/day4/Day4.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2023/day5/Day5.kt</url>
+          <line>35</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2023/day5/Day5.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2023/day5/Day5.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/aoc2023/day5/Day5.kt</url>
+          <line>72</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="value" />
         <PinnedItemInfo parentTag="java.util.LinkedHashMap$Entry" memberName="key" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="((java.util.ArrayList)monkeys).get(2)" custom="java.util.ArrayList" />
+      </configuration>
+      <configuration name="JUnit">
+        <watch expression="((java.util.ArrayList)groups).get(3)" custom="java.util.ArrayList" />
+        <watch expression="((java.util.ArrayList)groups).get(1)" custom="java.util.ArrayList" />
       </configuration>
       <configuration name="Application">
         <watch expression="((java.util.ArrayList)count).get(3)" custom="java.util.ArrayList" />
