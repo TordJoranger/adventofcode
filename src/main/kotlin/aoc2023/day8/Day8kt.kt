@@ -41,7 +41,6 @@ private fun findEndsWithZ(
     var currentNode1 = currentNode
     var count = 0
     while (!currentNode1.endsWith("Z")) {
-
         val dir = instructions[count % instructions.size]
         currentNode1 = if (dir == 'L')
             map[currentNode1]!!.first
