@@ -5,8 +5,6 @@ import java.io.File
 fun part1(input: File) : Long = day71(input.readLines())
 
 fun part2(input: File) : Long = day72(input.readLines())
-//249422921
-//248652697
 
 fun day72(readLines: List<String>): Long {
     return readLines.sortedBy { s ->

@@ -1,5 +1,6 @@
 package main.aoc2023.day8
 
+import main.common.functions.findLCMOfListOfNumbers
 import java.io.File
 import kotlin.text.toCharArray
 
@@ -7,7 +8,6 @@ fun part1(input: File) : Long = findZZZ(input.readLines())
 fun part2(input: File) : Long = findZZZ2(input.readLines())
 
 private fun findZZZ(readLines: List<String>): Long {
-
     val instructions = readLines[0].toCharArray()
     val map =  readLines.drop(2).groupBy { it.substring(0,3) }.mapValues { it.value[0].substring(7,10) to it.value[0].substring(12,15) }
     val count = findZZs(instructions, map)
@@ -60,26 +60,7 @@ private fun findZZZ2(readLines: List<String>): Long {
     return findLCMOfListOfNumbers(lowestZs)
 }
 
-fun findLCMOfListOfNumbers(numbers: List<Long>): Long {
-    var result = numbers[0]
-    for (i in 1 until numbers.size) {
-        result = findLCM(result, numbers[i])
-    }
-    return result
-}
 
-fun findLCM(a: Long, b: Long): Long {
-    val larger = if (a > b) a else b
-    val maxLcm = a * b
-    var lcm = larger
-    while (lcm <= maxLcm) {
-        if (lcm % a == 0L && lcm % b == 0L) {
-            return lcm
-        }
-        lcm += larger
-    }
-    return maxLcm
-}
 
 
 
