@@ -56,15 +56,15 @@ fun findStrengthWithJoker(it: String): Int {
 
 
     val toJoin = chars.groupBy { it }['J']?.map { _ ->
-        gr.maxBy {
-            if(it.key == 'J')
+        gr.maxByOrNull {
+            if (it.key == 'J')
                 0
             else {
                 val sizeAndType = it.value.size.toString() + it.value.first().toString()
                 findCardStrength(it.value.first().toString(), sizeAndType, "1")
                     .toInt(16)
             }
-        }.value.first()
+        }?.value?.first()
     }?.first()
 
     val replacedChars = chars.map {
