@@ -7,7 +7,6 @@ import java.util.HashSet
 fun part1(input: File) : Int = findSafeInstructions(input.readLines())
 fun part2(input: File) : Int = findSafeInstructions2(input.readLines())
 
-
 fun findSafeInstructions(readLines: List<String>): Int {
     val rules = readLines.takeWhile { it.isNotBlank() }.toHashSet()
     val updates = readLines.takeLastWhile { it.isNotBlank() }.map {  it.split(",").map { it.toInt() } }
@@ -21,7 +20,6 @@ fun findSafeInstructions(readLines: List<String>): Int {
              list[(list.size/2)]
         }
     }
-
 }
 
 fun findSafeInstructions2(readLines: List<String>): Int {
