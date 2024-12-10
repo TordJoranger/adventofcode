@@ -1,4 +1,4 @@
-package main.aoc2024.day5
+package main.aoc2024.day6.day5
 
 import java.io.File
 import java.util.Collections

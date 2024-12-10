@@ -29,7 +29,6 @@ fun calculateNewPoints(pointA: Pair<Int,Int>, pointB: Pair<Int,Int>): List<Pair<
     val c = pointA.first - (pointB.first-pointA.first)
     val d = pointA.second -(pointB.second-pointA.second)
 
-
       return sequence {
           if(a < sizeY && b < sizeX && a>= 0 && b >= 0)
               yield(Pair(a, b))
