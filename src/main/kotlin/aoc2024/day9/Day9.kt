@@ -1,47 +1,38 @@
 package main.aoc2024.day9
 
 import java.io.File
+import java.util.*
 import kotlin.math.floor
 
 fun part1(input: File) : Long = findCheckSum(input.readLines())
 
 fun findCheckSum(readLines: List<String>): Long {
-//takes 16 sec....
-   var str =  readLines.flatMap { it.toCharArray().map{ c -> c.toString() } }.foldIndexed(listOf()){ index: Int, acc :List<String>, s:String  ->
-       if (index % 2 == 0) {
-           val range = (1..s.toInt()).toList().map { floor(index/2.0).toInt().toString() }
-            acc.plus(range)
-       }else {
-           val range = (1..s.toInt()).toList().map { "." }
-          acc.plus(range)
-       }}
-
-    while(str.contains(".")) {
-
-       str = str.dropLastWhile { it == "." }
-
-        val index = str.indexOf(".")
-        if(index != -1) {
-           val m = str.toMutableList()
-            m[index] = str.last()
-            str = m.toList()
-            str = str.dropLast(1)
+    val str = readLines.flatMap { it.toCharArray().map { c -> c.toString() } }
+        .foldIndexed(listOf()) { index: Int, acc: List<String>, s: String ->
+            if (index % 2 == 0) {
+                val range = (1..s.toInt()).toList().map { floor(index / 2.0).toInt().toString() }
+                acc.plus(range)
+            } else {
+                val range = (1..s.toInt()).toList().map { "." }
+                acc.plus(range)
+            }
         }
 
+    return str.foldRightIndexed(str) { index, s, acc ->
+            val indexOf = acc.indexOf(".")
+            if (indexOf < index) {
+                Collections.swap(acc, index, indexOf)
+            }
+        acc
+    }.filter { it != "." }.foldIndexed(0L) { index: Int, acc: Long, s: String ->
+        acc + (s.toInt() * index)
     }
-
-    return str.foldIndexed(0L) { index: Int, acc :Long, s:String  ->
-        acc + (s.toInt() *index) }
 }
-
 
 fun part2(input: File) : Long = findCheckSum2(input.readLines())
 
-
-
 fun findCheckSum2(readLines: List<String>): Long {
   val ints =  readLines.first().toCharArray().map { it.digitToInt() }
-
 
   val stacks =  ints.mapIndexed { index, i ->
         if (index % 2 == 0) {
@@ -74,7 +65,6 @@ fun findCheckSum2(readLines: List<String>): Long {
         }else
             acc
         }
-
     }.filter { it.isNotEmpty() }
 
 
