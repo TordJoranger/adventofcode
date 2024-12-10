@@ -1,31 +1,27 @@
 package main.aoc2024.day9
 
 import java.io.File
-import java.util.*
-import kotlin.math.floor
 
-fun part1(input: File) : Long = findCheckSum(input.readLines())
+fun part1(input: File) : Long = findCheckSum(input.readText())
 
-fun findCheckSum(readLines: List<String>): Long {
-    val str = readLines.flatMap { it.toCharArray().map { c -> c.toString() } }
-        .foldIndexed(listOf()) { index: Int, acc: List<String>, s: String ->
-            if (index % 2 == 0) {
-                val range = (1..s.toInt()).toList().map { floor(index / 2.0).toInt().toString() }
-                acc.plus(range)
-            } else {
-                val range = (1..s.toInt()).toList().map { "." }
-                acc.plus(range)
-            }
+fun findCheckSum(readLines: String): Long {
+
+    val smt = readLines.trim().windowed(2,2,true)
+        .withIndex()
+        .flatMap { (index, value) ->
+            List(value.first().digitToInt()) { _ -> index.toLong() } +
+                    List(value.getOrElse(1){ _ -> '0' }.digitToInt()) { null }
         }
 
-    return str.foldRightIndexed(str) { index, s, acc ->
-            val indexOf = acc.indexOf(".")
-            if (indexOf < index) {
-                Collections.swap(acc, index, indexOf)
-            }
-        acc
-    }.filter { it != "." }.foldIndexed(0L) { index: Int, acc: Long, s: String ->
-        acc + (s.toInt() * index)
+    val emptyBlocks = smt.indices.filter { smt[it] == null }.toMutableList()
+
+    return smt.withIndex().reversed().sumOf { (index, value) ->
+        if (value != null) {
+            value * (emptyBlocks.removeFirstOrNull() ?: index)
+        } else {
+            emptyBlocks.removeLastOrNull()
+            0
+        }
     }
 }
 
