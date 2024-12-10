@@ -32,7 +32,7 @@ fun part2(input: File) : String {
     val list = input.readLines()
     var result = ""
 
-    list.forEachIndexed { index, s ->
+    list.forEach { s ->
         result += hitsPixel(cycle, x)
         if (s.startsWith("n")){
             cycle++

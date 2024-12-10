@@ -12,7 +12,7 @@ fun part1(input: File) : Int {
     }
     var count = 0;
     readLines.forEachIndexed { oi, s ->
-        s.forEachIndexed {ii,c ->
+        s.forEachIndexed { ii, _ ->
             if (oi == 0 || ii == 0 || oi == readLines.size-1 || ii == s.length-1)
                 count++
             else if (canBeSeen(matrix,oi,ii))
@@ -33,7 +33,7 @@ fun part2(input: File) : Int {
     }
     var max = 0
     readLines.forEachIndexed { oi, s ->
-        s.forEachIndexed {ii,c ->
+        s.forEachIndexed { ii, _ ->
 
              val temp = canSeeFrom(matrix,oi,ii)
             if(temp > max)

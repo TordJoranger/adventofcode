@@ -6,7 +6,7 @@ import kotlin.math.floor
 fun part1(input: File) : Long = findCheckSum(input.readLines())
 
 fun findCheckSum(readLines: List<String>): Long {
-return 0 //takes 16 sec....
+//takes 16 sec....
    var str =  readLines.flatMap { it.toCharArray().map{ c -> c.toString() } }.foldIndexed(listOf()){ index: Int, acc :List<String>, s:String  ->
        if (index % 2 == 0) {
            val range = (1..s.toInt()).toList().map { floor(index/2.0).toInt().toString() }

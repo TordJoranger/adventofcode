@@ -3,14 +3,15 @@ import java.io.File
 
 fun day2() = countValidPasswords(File("src/pre2021.adventOfCode/day2/day2.txt").readLines())
 
-private fun countValidPasswords(list: List<String>) : Int  {
-   return  list.sumBy { s ->
-       val split = s.split(" ", "-", ": ")  //example "10-13 f: jfkwhzrtktphc"
-       val lowerBound = split[0].toInt() -1 //subtract to match index
-       val upperBound = split[1].toInt() -1 //subtract to match index
-       val letter = split[2][0] //assumes always 1 letter
-       val password = split[3]
-       isValidPart2(lowerBound,upperBound,letter,password) }
+private fun countValidPasswords(list: List<String>): Int {
+    return list.sumOf { s ->
+        val split = s.split(" ", "-", ": ")  //example "10-13 f: jfkwhzrtktphc"
+        val lowerBound = split[0].toInt() - 1 //subtract to match index
+        val upperBound = split[1].toInt() - 1 //subtract to match index
+        val letter = split[2][0] //assumes always 1 letter
+        val password = split[3]
+        isValidPart2(lowerBound, upperBound, letter, password)
+    }
 }
 
 private fun isValidPart1(lowerBound: Int,upperBound: Int,letter: Char,password : String) : Int {

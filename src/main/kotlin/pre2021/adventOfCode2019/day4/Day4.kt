@@ -17,17 +17,19 @@ fun day4Stolen() = File("src/pre2021.adventOfCode/day4/day4")
     fun day4() = countValidPassports(File("src/pre2021.adventOfCode/day4/day4").readText())
 
     private fun countValidPassports(s: String): Long {
-        val list = s.split("\r\n\r\n").map{x -> x.replace("\r\n", " ")}
+        val list = s.split("\r\n\r\n").map { x -> x.replace("\r\n", " ") }
 
-      return  list.sumBy { passport -> if(
-          hasValidDigits(passport,"byr:",1920,2002)
-          && hasValidDigits(passport,"iyr:",2010,2020)
-          && hasValidDigits(passport,"eyr:",2020,2030)
-          && hasValidHeight(passport)
-          && hasValidHairColor(passport)
-          && hasValidEyeColor(passport)
-          && hasValidPID(passport)
-      ) 1 else 0 }.toLong()
+        return list.sumOf { passport ->
+            if (
+                hasValidDigits(passport, "byr:", 1920, 2002)
+                && hasValidDigits(passport, "iyr:", 2010, 2020)
+                && hasValidDigits(passport, "eyr:", 2020, 2030)
+                && hasValidHeight(passport)
+                && hasValidHairColor(passport)
+                && hasValidEyeColor(passport)
+                && hasValidPID(passport)
+            ) 1L else 0
+        }
     }
 
 fun hasValidPID(passport: String): Boolean {

@@ -8,7 +8,7 @@ private fun day2(list: List<String>): String =
     "part2: ${ part2(list) }"
 
 
-private fun part1(list: List<String>): Int = list.sumBy { s ->
+private fun part1(list: List<String>): Int = list.sumOf { s ->
     when (s) {
         "A X" -> 3
         "A Y" -> 4
@@ -20,9 +20,10 @@ private fun part1(list: List<String>): Int = list.sumBy { s ->
         "C Y" -> 6
         "C Z" -> 7
         else -> throw Exception("you fucked up")
-    }
+    }.toInt()
 }
-private fun part2(list: List<String>): Int = list.sumBy { s ->
+
+private fun part2(list: List<String>): Int = list.sumOf { s ->
     when (s) {
         "A X" -> 4
         "A Y" -> 8
@@ -34,7 +35,7 @@ private fun part2(list: List<String>): Int = list.sumBy { s ->
         "C Y" -> 2
         "C Z" -> 6
         else -> throw Exception("you fucked up")
-    }
+    }.toInt()
 }
 
 

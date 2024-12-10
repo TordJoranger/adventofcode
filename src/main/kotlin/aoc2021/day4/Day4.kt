@@ -56,18 +56,18 @@ fun checkBingo(updatedBoard: List<List<List<Int?>>>): Pair<Long, List<List<List<
         var columnBingo = true
 
         for ((ii, x) in board.withIndex()) {
-            if(x.all { y -> y == null }){
-                if(returnList.size > index)
-                returnList.removeAt(index)
-                result = board.sumBy { b -> b.sumBy { v-> v ?: 0 } }.toLong()
+            if(x.all { y -> y == null }) {
+                if (returnList.size > index)
+                    returnList.removeAt(index)
+                result = board.sumOf { b -> b.sumOf { v -> v ?: 0 } }.toLong()
             }
             if(board[ii][ii] != null)
                columnBingo = false
         }
-        if(columnBingo){
-            if(returnList.size > index)
-            returnList.removeAt(index)
-            result = board.sumBy { b -> b.sumBy { v-> v ?: 0 } }.toLong()
+        if(columnBingo) {
+            if (returnList.size > index)
+                returnList.removeAt(index)
+            result = board.sumOf { b -> b.sumOf { v -> v ?: 0 } }.toLong()
         }
     }
 

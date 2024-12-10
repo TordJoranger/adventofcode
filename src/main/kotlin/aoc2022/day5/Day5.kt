@@ -16,7 +16,7 @@ fun getTopBoxes(input: File, moverFunc: (List<Int>, List<ArrayDeque<Char>>) -> U
     }
   }
   stacks.forEach {
-    it.removeFirst()
+    it.drop(1)
   }
 
   i.split("\n").dropLast(1).forEach { s ->

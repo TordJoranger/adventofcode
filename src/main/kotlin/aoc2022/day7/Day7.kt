@@ -49,7 +49,7 @@ private fun getNodes(lines: MutableList<String>, node: Node, root: Node, sets: M
         return
     }
     val instruction = lines.first()
-    lines.removeFirst()
+    lines.drop(1)
 
     if (instruction.contains("cd")) {
         if (instruction.startsWith("$ cd /")) {

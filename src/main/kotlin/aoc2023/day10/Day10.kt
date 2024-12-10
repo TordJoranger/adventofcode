@@ -108,7 +108,7 @@ fun findEnclosed(readLines: List<String>): Int {
 
     var count = 0
     matrix.forEachIndexed { yAxis ,row ->
-       row.forEachIndexed { xAxis, c ->
+       row.forEachIndexed { xAxis, _ ->
            if(!visitedNodes.contains(yAxis to xAxis)){
                val verticalLines = countVerticalLinesToTheRight(yAxis to xAxis,matrix,visitedNodes)
                if(verticalLines % 2 != 0)
