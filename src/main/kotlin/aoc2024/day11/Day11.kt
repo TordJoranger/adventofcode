@@ -3,8 +3,6 @@ package main.aoc2024.day11
 import java.io.File
 
 fun part1(input: File) : Long = countStones(25,input.readText())
-
-
 fun part2(input: File) : Long = countStones(75,input.readText())
 val knownNodes = hashMapOf<Pair<Long,Int>,Long>()
 fun countStones(blinks: Int, readLines: String): Long {

@@ -3,7 +3,7 @@ package aoc2024.day10
 import org.junit.jupiter.api.Assertions
 import java.io.File
 
-internal class Day9Test {
+internal class Day10Test {
 
     private val file = File("src/test/kotlin/aoc2024/day10/test10.txt")
 
