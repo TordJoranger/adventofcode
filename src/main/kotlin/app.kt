@@ -4,16 +4,16 @@ package main
 import kotlin.system.measureTimeMillis
 
 suspend fun main() {
-     val day = 12
+     val day = 13
      val input = main.common.getInput(System.getenv("SessionCookie"), day)
 
      val elapsedP1 = measureTimeMillis {
-          print("part1: ${main.aoc2024.day12.part1(input)}")
+          print("part1: ${main.aoc2024.day13.part1(input)}")
      }
      println(" in $elapsedP1 ms")
 
      val elapsedP2 = measureTimeMillis {
-          print("part2: ${main.aoc2024.day12.part2(input)}")
+          print("part2: ${main.aoc2024.day13.part2(input)}")
      }
      println(" in $elapsedP2 ms")
 }
