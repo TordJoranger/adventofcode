@@ -8,9 +8,9 @@ import io.ktor.client.engine.cio.*
 import java.io.File
 import java.time.LocalDateTime
 
-suspend fun getTestInput(day : Int): File {
+suspend fun getTestInput(day : Int, pathName: String): File {
     val year: Int = LocalDateTime.now().year
-    val file = File("src/test/kotlin/aoc$year/inputs/test-$day.txt")
+    val file = File(pathName)
     if(!file.exists()) {
 
         val text = tryGetTestInput(day, year)
