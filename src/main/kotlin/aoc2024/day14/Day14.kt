@@ -57,20 +57,14 @@ fun findPosition(string: String, seconds: Int): Pair<Int,Int>{
 
 
 fun christmasTree(readLines: List<String>): Long {
-
-    var highestY = 0
-
     for (i in 0..10000 step 1) {
         val positions = readLines.map {
             findPosition(it, i)
         }
-
-
         val grouped = positions.filter { it.first != middleL && it.second != middleH }
             .groupBy {
                 it.second
         }
-
         val maxY = grouped.values.maxOf { it.size }
         if(maxY > 25) {
             printCoordinatesAsMatrix(positions,i)
@@ -84,21 +78,10 @@ fun printCoordinatesAsMatrix(coords: List<Pair<Int, Int>>, seconds: Int) {
         println("No coordinates to display.")
         return
     }
-
-    // Determine the bounding box of the coordinates
-    val maxX = coords.maxOf { it.first }
-    val maxY = coords.maxOf { it.second }
-
-    // Create a grid large enough to hold all coordinates
-    // Rows (height) = maxY + 1, columns (width) = maxX + 1
     val grid = Array(height) { Array(length) { ' ' } }
-
-    // Place a dot at each coordinate
     for ((x, y) in coords) {
         grid[y][x] = '.'
     }
-
-    // Print the grid
     for (row in grid) {
         println(row.joinToString(""))
     }
