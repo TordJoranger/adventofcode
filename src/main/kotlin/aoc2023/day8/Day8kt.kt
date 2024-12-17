@@ -54,9 +54,10 @@ private fun findEndsWithZ(
 
 private fun findZZZ2(readLines: List<String>): Long {
     val instructions = readLines[0].toCharArray()
-    val map =  readLines.drop(2).groupBy { it.substring(0,3) }.mapValues { it.value[0].substring(7,10) to it.value[0].substring(12,15) }
+    val map = readLines.drop(2).groupBy { it.substring(0, 3) }
+        .mapValues { it.value[0].substring(7, 10) to it.value[0].substring(12, 15) }
     val currentNodes = map.filter { it.key.endsWith("A") }.map { it.key }.toMutableSet()
-    val lowestZs =  currentNodes.map { findEndsWithZ(it,instructions,map).toLong() }
+    val lowestZs = currentNodes.map { findEndsWithZ(it, instructions, map).toLong() }
     return findLCMOfListOfNumbers(lowestZs)
 }
 
