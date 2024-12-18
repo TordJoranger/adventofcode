@@ -3,30 +3,32 @@ package main.aoc2024.day17
 import java.io.File
 import kotlin.math.pow
 
-
-fun part1(input: File) : String = "skip"//opcode(input.readLines())
+fun part1(input: File) : String = opcode(input.readLines())
 fun part2(input: File) : String = opcode2(input.readLines())
 
 fun opcode2(readLines: List<String>): String {
     val regex = "\\d+".toRegex()
     val instructions = regex.findAll(readLines[4]).map { it.value.toInt() }.toList()
 
-    val test =findMinX(listOf(8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8),instructions,instructions.size)
-
-    var pointer = 0
     var output = listOf<Int>()
-//999999999999999L
+
     var regA = 0L
+    var take = 1
     while(output != instructions){
-        regA+=1
-        output = runProgram(pointer, instructions, regA, 0, 0, true)
+        output = runProgram(0, instructions, regA, 0, 0, true)
+        if(output.take(take).toString() == instructions.takeLast(take).toString()){
+            regA*=8
+            take++
+        }else
+            regA++
+
 
         if(output.size > instructions.size){
             error("oh no")
         }
     }
 
-    return regA.toString()
+    return (regA/8).toString()
 }
 
 fun opcode(readLines: List<String>): String {
@@ -59,9 +61,7 @@ private fun runProgram(
     var regB1 = regB
     var regC1 = regC
     var output1 = listOf<Int>()
-    //&& (instructions.take(output1.size) == output1 || !part2)
-    while (pointer1 < instructions.size - 1 && (instructions.take(output1.size) == output1 || !part2)) {
-
+    while (pointer1 < instructions.size - 1) {
         val opcode = instructions[pointer1]
         val literal = instructions[pointer1 + 1]
 
@@ -105,9 +105,6 @@ private fun runProgram(
 
             5 -> {
                 output1 = output1.plus((combo % 8).toInt())
-                if(output1.size > 14){
-                    println(output1)
-                }
                 pointer1 += 2
             }
 
@@ -127,28 +124,4 @@ private fun runProgram(
         }
     }
     return output1
-}
-
-fun findMinX(num: List<Int>, rem: List<Int>, k: Int): Long {
-    var x = 1L // Initialize result
-
-    // As per the Chinese remainder theorem,
-    // this loop will always break.
-    while (true) {
-        // Check if remainder of x % num[j] is
-        // rem[j] or not (for all j from 0 to k-1)
-        var j = 0
-        while (j < k) {
-            val l = x / (8.0.pow(j+1)).toLong()
-            if (l % num[j] != rem[j].toLong()) break
-            j++
-        }
-
-        // If all remainders matched, we found x
-        if (j == k)
-            return x
-
-        // Else try next number
-        x++
-    }
 }
