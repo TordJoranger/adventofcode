@@ -46,7 +46,7 @@ fun bfsShortestPathWithRotation(grid: List<List<Char>>, start: Point, end: Point
 
             // Check boundaries, walls, and if the cost is better
             val newVisitedValue = visited[Triple(newRow, newColumn, dir.key)]
-            if (newRow in 0 until rows && newRow in 0 until cols &&
+            if (newRow in 0 until rows && newColumn in 0 until cols &&
                 grid[newRow][newColumn] != '#' && (newVisitedValue == null || newCost < newVisitedValue)
             ) {
                 visited[Triple(newRow,newColumn,dir.key)] = newCost
