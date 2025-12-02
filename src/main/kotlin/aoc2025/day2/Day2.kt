@@ -34,14 +34,15 @@ fun findInvalidIds2(readLines: List<String>): Long {
 }
 
 fun countInvalidIds2(range: LongRange) : Long {
-    return range.sumOf {  lng ->
+    return range.sumOf { lng ->
         val srt = lng.toString()
-        val invalid = (1..<srt.length).any { win ->
-           srt.chunked(win).distinct().size == 1
+        val invalid = (srt.length/2 downTo 1).any { win ->
+            val chunked = srt.chunked(win)
+            chunked.all{it == chunked[0] }
         }
-       if(invalid)
-           lng
-
+        if (invalid)
+            lng
         else 0
+
     }
 }
