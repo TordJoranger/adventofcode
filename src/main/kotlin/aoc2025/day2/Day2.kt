@@ -37,8 +37,8 @@ fun countInvalidIds2(range: LongRange) : Long {
     return range.sumOf { lng ->
         val srt = lng.toString()
         val invalid = (srt.length/2 downTo 1).any { win ->
-            val chunked = srt.chunked(win)
-            chunked.all{it == chunked[0] }
+            val chunked = srt.chunkedSequence(win)
+            chunked.all{it == chunked.first() }
         }
         if (invalid)
             lng
