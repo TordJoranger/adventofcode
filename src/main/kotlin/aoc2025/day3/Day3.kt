@@ -16,7 +16,7 @@ fun findTwoHighestNumbersAsInt(numbers: String) : Int {
         val num = ch.code
         val first = acc[0].code
         val second = acc[1].code
-        if(num > second && second >= first)
+        if(second in first..<num)
             acc[1]+ch.toString()
         else if (num > second)
                 acc[0]+ch.toString()

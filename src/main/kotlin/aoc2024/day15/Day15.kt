@@ -43,7 +43,7 @@ fun lanternFish(readLines: List<String>, part2:Boolean): Long {
             traverse(ins,matrix)
         }
     }
-    printMatrix<Char>(matrix)
+    printMatrix(matrix)
   val sum =  matrix.withIndex().sumOf { list ->
         val i = list.index
         list.value.withIndex().sumOf {
