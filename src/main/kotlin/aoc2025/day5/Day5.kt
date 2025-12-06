@@ -1,6 +1,5 @@
 ﻿package main.aoc2025.day5
 
-import io.ktor.util.length
 import java.io.File
 
 fun part1(input: File) : Int = freshFood(input.readLines())
