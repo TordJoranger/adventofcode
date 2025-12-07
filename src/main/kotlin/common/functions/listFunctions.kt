@@ -10,8 +10,8 @@ fun diagonal(lines: List<String>): List<String> {
     }
 }
 
-fun vertical(lines: List<String>): List<String> {
-   return lines[0].indices.map { x -> lines.indices.map { y -> lines[y][x] }.joinToString(" ") }
+fun vertical(lines: List<String>, lineSeparator: String=""): List<String> {
+   return lines[0].indices.map { x -> lines.indices.map { y -> lines[y][x] }.joinToString(lineSeparator) }
 }
 
 fun <T> List<T>.split(predicate: (T) -> Boolean): List<List<T>> {

@@ -1,5 +1,6 @@
 package main.aoc2024.day4
 
+import main.common.functions.diagonal
 import java.io.File
 
 fun part1(input: File) : Int = findXmas(input.readLines())
@@ -34,16 +35,6 @@ private fun timesMasXOccurs(lines: List<String>) : Int = lines.sumOf { s ->
 
 private fun indexValuesIsMasOrSam(iv: List<IndexedValue<Char>>) =
         iv.map { it.value.toString() }.reduce { acc, c -> acc + c } == "MAS" || iv.map { it.value.toString() }.reduce { acc, c -> acc + c } == "SAM"
-
-private fun diagonal(lines: List<String>): List<String> {
-    val width = lines[0].length
-    val height = lines.size
-    return (height * -1 until height).map { y ->
-        (0 until width).map<Int, Any> { step ->
-            if (y + step !in 0 until height || step !in 0 until width) " " else lines[y + step][step]
-        }.joinToString("").trim()
-    }
-}
 
 fun findMasInX(readLines: List<String>): Int {
     val diagonalHorizontal = diagonal(readLines)
