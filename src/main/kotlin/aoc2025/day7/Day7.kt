@@ -12,11 +12,7 @@ fun findSplits(readLines: List<String>): Long {
     val verticals = vertical(readLines)
 
     return findSplit(verticals,visited, 70, 1)
-
-
 }
-
-
 
 fun findSplit(verticals: List<String>, visited: HashMap<Point, Long>, startIndex: Int, progress: Int) : Long {
 
