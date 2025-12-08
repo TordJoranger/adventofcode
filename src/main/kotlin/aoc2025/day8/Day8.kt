@@ -29,8 +29,8 @@ fun findCircuits(readLines: List<String>): Long {
            orderedList.sortBy { it.second }
        }
     }
-
-    val circ =points.map { mutableSetOf(it) }.toMutableSet()
+    val points2 = points.toMutableList()
+    val circ =mutableListOf(mutableSetOf<Point>())
 
     (0 .. 9).forEach { i ->
         run {
@@ -38,10 +38,15 @@ fun findCircuits(readLines: List<String>): Long {
             circ.forEach { list ->
                 if (list.contains(orderedList[i].first.first)) {
                     list.add(orderedList[i].first.second)
+                    points2.remove(orderedList[i].first.second)
                     added = true
                 } else if (list.contains(orderedList[i].first.second)) {
                     list.add(orderedList[i].first.first)
+                    points2.remove(orderedList[i].first.first)
                     added = true
+                }
+                if(!added) {
+                    circ.add(mutableSetOf(orderedList[i].first.first,orderedList[i].first.second))
                 }
             }
 
