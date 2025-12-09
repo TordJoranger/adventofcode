@@ -2,101 +2,158 @@ package main.aoc2025.day8
 
 
 import java.io.File
+import java.util.Collections.addAll
 import kotlin.math.pow
 import kotlin.math.sqrt
 
-fun part1(input: File) : Long = findCircuits(input.readLines())
+fun part1(input: File, i: Int = 1000): Long = findCircuits(input.readLines(), i)
 
-fun findCircuits(readLines: List<String>): Long {
+fun findCircuits(readLines: List<String>, i: Int): Long {
 
- val orderedList = mutableListOf<Pair<Pair<Point, Point>, Double>>()
+    val orderedList = mutableListOf<Pair<Pair<Point, Point>, Double>>()
 
 
-   val points = readLines.map {
+    val points = readLines.map {
         val coordinates = it.split(",")
-        Point(coordinates[0].toDouble(),coordinates[1].toDouble(),coordinates[2].toDouble())
+        Point(coordinates[0].toDouble(), coordinates[1].toDouble(), coordinates[2].toDouble())
     }
 
-    points.forEachIndexed { index1,point ->
-       points.drop((1+index1)).forEachIndexed { index2, point2 ->
-           val distance = distance(point, point2)
-           if(orderedList.size < 10)
-               orderedList.add(Pair(Pair(point,point2),distance))
-           else if(distance < orderedList.last().second) {
-               orderedList.removeLast()
-               orderedList.add(Pair(Pair(point,point2),distance))
-           }
-           orderedList.sortBy { it.second }
-       }
-    }
-    val points2 = points.toMutableList()
-    val circ =mutableListOf(mutableSetOf<Point>())
-
-    (0 .. 9).forEach { i ->
-        run {
-            var added = false
-            circ.forEach { list ->
-                if (list.contains(orderedList[i].first.first)) {
-                    list.add(orderedList[i].first.second)
-                    points2.remove(orderedList[i].first.second)
-                    added = true
-                } else if (list.contains(orderedList[i].first.second)) {
-                    list.add(orderedList[i].first.first)
-                    points2.remove(orderedList[i].first.first)
-                    added = true
-                }
-                if(!added) {
-                    circ.add(mutableSetOf(orderedList[i].first.first,orderedList[i].first.second))
-                }
+    points.forEachIndexed { index1, point ->
+        points.drop((1 + index1)).forEachIndexed { index2, point2 ->
+            val distance = distance(point, point2)
+            if (orderedList.size < i)
+                orderedList.add(Pair(Pair(point, point2), distance))
+            else if (distance < orderedList.last().second) {
+                orderedList.removeLast()
+                orderedList.add(Pair(Pair(point, point2), distance))
             }
-
-
+            orderedList.sortBy { it.second }
         }
     }
-val circuits = orderedList.map { it.first }.foldIndexed(mutableListOf(mutableSetOf(orderedList.first().first.first,orderedList.first().first.second))){ index,acc, triple ->
-    var added = false
+    val circuits = points.map { p -> mutableSetOf(p) }.toMutableSet()
 
-    if(index > 9){
-        acc.add(mutableSetOf(triple.first))
-        acc.add(mutableSetOf(triple.second))
-    }
+    orderedList.forEach { pair ->
+        val first = pair.first.first
+        val second = pair.first.second
 
-    if(index == 0) {
-        acc
-    }
-    else{
-        acc.forEach { list ->
-        if(list.contains(triple.first)) {
-            list.add(triple.second)
-            added = true
+        circuits.remove(mutableSetOf(first))
+        circuits.remove(mutableSetOf(second))
+
+        val added = circuits.any { list ->
+            val containsFirst = list.contains(first)
+            val containsSecond = list.contains(second)
+            if(containsFirst && containsSecond)
+                true
+            else if (containsFirst) {
+                val toMerge = circuits.singleOrNull { it != list && it.contains(second) }
+                if(toMerge != null){
+                    list.addAll(toMerge)
+                     circuits.removeIf { it.containsAll(toMerge) && it.size == toMerge.size }
+                } else {
+                    list.add(second)
+                }
+                true
+            } else if (containsSecond) {
+                val toMerge = circuits.singleOrNull { it != list && it.contains(first) }
+                if(toMerge != null){
+                    list.addAll(toMerge)
+                   circuits.removeIf { it.containsAll(toMerge) && it.size == toMerge.size }
+                } else {
+                    list.add(first)
+                }
+                true
+            } else {
+                false
+            }
         }
-        else if(list.contains(triple.second)){
-            list.add(triple.first)
-            added = true
-        } }
-        if(!added) {
-            acc.add(mutableSetOf(triple.first,triple.second))
+        if (!added) {
+            circuits.add(mutableSetOf(first, second))
         }
-    acc
     }
+
+    val sortedByDescending = circuits.sortedByDescending { it.size }
+    return sortedByDescending.take(3).map { it.size }.reduce { a, b -> a * b }.toLong()
 }
 
-    return 0L
+
+fun part2(input: File, i: Int = 10000): Long = findCircuits2(input.readLines(), i)
+
+
+fun findCircuits2(readLines: List<String>, i: Int): Long {
+
+    val orderedList = mutableListOf<Pair<Pair<Point, Point>, Double>>()
+
+
+    val points = readLines.map {
+        val coordinates = it.split(",")
+        Point(coordinates[0].toDouble(), coordinates[1].toDouble(), coordinates[2].toDouble())
+    }
+    val circuits = points.map { p -> mutableSetOf(p) }.toMutableSet()
+    points.forEachIndexed { index1, point ->
+        points.drop((1 + index1)).forEachIndexed { index2, point2 ->
+            val distance = distance(point, point2)
+            if (orderedList.size < i)
+                orderedList.add(Pair(Pair(point, point2), distance))
+            else if (distance < orderedList.last().second) {
+                orderedList.removeLast()
+                orderedList.add(Pair(Pair(point, point2), distance))
+            }
+            orderedList.sortBy { it.second }
+        }
+    }
+
+
+
+    orderedList.forEach { pair ->
+        val first = pair.first.first
+        val second = pair.first.second
+
+        circuits.remove(mutableSetOf(first))
+        circuits.remove(mutableSetOf(second))
+
+        val added = circuits.any { list ->
+            val containsFirst = list.contains(first)
+            val containsSecond = list.contains(second)
+            if(containsFirst && containsSecond)
+                true
+            else if (containsFirst) {
+                val toMerge = circuits.singleOrNull { it != list && it.contains(second) }
+                if(toMerge != null){
+                    list.addAll(toMerge)
+                    circuits.removeIf { it.containsAll(toMerge) && it.size == toMerge.size }
+                } else {
+                    list.add(second)
+                }
+                true
+            } else if (containsSecond) {
+                val toMerge = circuits.singleOrNull { it != list && it.contains(first) }
+                if(toMerge != null){
+                    list.addAll(toMerge)
+                    circuits.removeIf { it.containsAll(toMerge) && it.size == toMerge.size }
+                } else {
+                    list.add(first)
+                }
+                true
+            } else {
+                false
+            }
+        }
+        if (!added) {
+            circuits.add(mutableSetOf(first, second))
+        }
+
+        if(circuits.size ==1)
+            return first.x.toLong()*second.x.toLong()
+    }
+
+    val sortedByDescending = circuits.sortedByDescending { it.size }
+    return sortedByDescending.take(3).map { it.size }.reduce { a, b -> a * b }.toLong()
 }
 
-fun findClosest(point: Point, others: List<Point>) : Pair<Point, Double> {
-
-    val first = others.minBy { otherPoint -> distance(point, otherPoint) }
-    return Pair(first,distance(point,first))
-
-}
-
-fun part2(input: File) : Long = findCircuits(input.readLines())
-
-data class Point(val x: Double, val y: Double, val z : Double)
+data class Point(val x: Double, val y: Double, val z: Double)
 
 
-fun distance(pointA: Point, pointB : Point) : Double {
+fun distance(pointA: Point, pointB: Point): Double {
     return sqrt((pointA.x - pointB.x).pow(2) + (pointA.y - pointB.y).pow(2) + (pointA.z - pointB.z).pow(2))
 }
 
