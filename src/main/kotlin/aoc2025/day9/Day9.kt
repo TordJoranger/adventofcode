@@ -15,13 +15,10 @@ fun findRedRectangle2(readLines: List<String>): Long {
     }
 
     return points.fold(0L) { acc, point ->
-        val max = points.filter { it != point }
-            .maxOf {
-                if(it.row < point.row)
-                    findArea2(it, point, points.map { it.row }, points.map { it.column })
-                else
-                    findArea2(point, it, points.map { it.row }, points.map { it.column })
-                 }
+
+
+        val max = points.filter { it != point }.filter { allGreenAndRed(it, point, points) }
+            .maxOf { findArea2(it, point) }
         if (max > acc)
             max
         else
@@ -29,22 +26,34 @@ fun findRedRectangle2(readLines: List<String>): Long {
     }
 }
 
+fun allGreenAndRed(a: Point, b: Point, points: List<Point>): Boolean {
+
+    val rows = points.groupBy { it.column }
+
+    val columns = points.groupBy { it.row }
+
+   val valid1 = (a.column .. b.column).all { c ->
+        val r = rows[c]
+       r.all { r -> r in  }
+
+
+       true
+    }
+
+    val valid2 = (a.row .. b.row).all { c ->
+        val r = columns[c]!!
+        r[0].column in a.column .. b.column
+    }
+    return valid1 && valid2
+
+}
+
 fun findArea2(
     pA: Point,
-    pB: Point,
-    rows:  List<Int>,
-    columns: List<Int>
+    pB: Point
 ) : Long{
 
-   val valid = (pA.row .. pB.row).all {
-        columns.any{col -> col < pA }
-    }
 
-    val validCol = (pA.column .. pB.column).all {
-        columns.any{ row -> row in pA.row .. pB.row }
-    }
-    if(!validCol || !valid)
-        return 0L
 
     val distanceRows = (pA.row - pB.row).absoluteValue.toLong()+1
     val distanceColumns = (pA.column - pB.column).absoluteValue.toLong()+1
